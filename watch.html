@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch BryceKrispy</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="styles/homepage.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/watch.css">
+
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <div class="navigation-page">
+        
+        <div class="left-column">
+            <div class="social-media-icons">
+                <a href="https://instagram.com/rs_joelmonkey" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://twitter.com/BKrispy4" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <a href="https://discord.gg/kVpE2rN65j" target="_blank">
+                    <i class="fab fa-discord"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="watch-center-column">
+            <h1>Watch Bryce's Stream</h1>
+
+            <div class="watch-links-wrapper">
+                <div class="nav-link">
+                    <a href="index.html">Home</a>
+                </div>
+
+                <div class="nav-link">
+                    <a href="about.html">About</a>
+                </div>
+
+                <div class="nav-link">
+                    <a href="watch.html">Watch</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <div class="gamer-wear-icon">
+                <a href="https://gamerwear.com/pages/_go_?ref=3314:56787&discount=Krispy" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-tshirt"></i>
+                </a>
+
+                <a href="https://www.twitch.tv/brycekrispy" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-twitch"></i>
+                </a>
+
+                <a href="https://streamlabs.com/brycekrispy" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-dollar-sign"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+        <div id="live-stream"></div>
+            <script type="text/javascript">
+                var options = {
+                width: 1920,
+                height: 1080,
+                channel: "BryceKrispy",
+                video: "Most Recent",
+                collection: "Live",
+                };
+            var player = new Twitch.Player("live-stream", options);
+            player.setVolume(0.5);
+    </script>
+</body>
+</html>

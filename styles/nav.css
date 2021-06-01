@@ -1,0 +1,93 @@
+/* Common nav styles */
+.navigation-page {
+    border: none;
+    height: 175px;
+    background-color: #202529;
+    color: seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 150px;
+}
+
+/* Left column styles */
+.navigation-page > .left-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-page > .left-column {
+    margin-right: 15px;
+}
+
+.navigation-page > .left-column i {
+    font-size: 1.5em;
+    color: #28ebe5;
+    padding: 20px 10px;
+    transition: 0.5s;
+}
+
+.navigation-page > .left-column i:hover {
+    color: seashell;
+}
+
+/* Center column styles */
+.navigation-page > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+}
+
+.navigation-page > .center-column > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-page > .center-column > .banner-image img {
+    width: 500px;
+    height: 100%;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.links-wrapper > .nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: seashell;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-link a:hover {
+    color: #28ebe5;
+    letter-spacing: 2px;
+}
+
+/* Right column styles */
+.navigation-page > .right-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-page > .right-column {
+    margin-right: 15px;
+}
+
+.navigation-page > .right-column i {
+    font-size: 1.5em;
+    color: #28ebe5;
+    padding: 20px 10px;
+    transition: 0.5s;
+}
+
+.navigation-page > .right-column i:hover {
+    color: seashell;
+}

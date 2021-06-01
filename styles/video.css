@@ -1,0 +1,13 @@
+.middle-image iframe {
+    height: 56.25vw;
+}
+
+.middle-image > iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
