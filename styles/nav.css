@@ -1,7 +1,7 @@
 /* Common nav styles */
 .navigation-page {
     border: none;
-    height: 175px;
+    height: 215px;
     background-color: #202529;
     color: seashell;
     display: flex;
@@ -61,7 +61,7 @@
 
 .links-wrapper > .nav-link a {
     font-family: "Ubuntu Condensed", sans-serif;
-    color: lightslategrey;
+    color: seashell;
     text-decoration: none;
     transition: 0.5s;
 }

@@ -17,7 +17,14 @@
     background-size: 100%;
     transform: skewY(-6deg);
     transform-origin: top left;
-    filter: brightness(50%);
+    filter: brightness(40%);
+}
+
+.skewed-header > .skewed-header-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
 }
 
 .skewed-header > .skewed-header-wrapper > .skewed-header-content {
@@ -32,7 +39,7 @@
     color: #202529;
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
-    width: 175px;
+    width: 185px;
     padding: 10px;
     text-align: center;
 }

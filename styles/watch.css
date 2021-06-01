@@ -29,3 +29,20 @@
     color: #28ebe5;
     letter-spacing: 2px;
 }
+
+.navigation-page > .watch-center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+.navigation-page > .watch-center-column > .watch-banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-page > .watch-center-column > .watch-banner-image img {
+    width: 500px;
+    height: 100%;
+}
