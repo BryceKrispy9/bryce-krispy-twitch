@@ -20,7 +20,7 @@
     margin-top: -4px;
 }
 
-.square > .square-text-wrapper {
+.square > .squares-text-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,6 +28,6 @@
     padding: 42px;
 }
 
-.square > .square-text-wrapper h1 {
+.square > .squares-text-wrapper h1 {
     color: #202529;
 }
