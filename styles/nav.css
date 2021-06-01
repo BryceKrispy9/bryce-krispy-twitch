@@ -61,7 +61,7 @@
 
 .links-wrapper > .nav-link a {
     font-family: "Ubuntu Condensed", sans-serif;
-    color: seashell;
+    color: lightslategrey;
     text-decoration: none;
     transition: 0.5s;
 }
