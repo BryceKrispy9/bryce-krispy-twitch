@@ -1,0 +1,28 @@
+.footer {
+    background-color: #202529;
+    color: seashell;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    border-top: 10px solid #202529;
+}
+
+.footer > .links-wrapper {
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+
+.footer > .social-media-icons {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer > .social-media-icons a {
+    color: #28ebe5;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
