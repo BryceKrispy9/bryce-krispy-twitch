@@ -2,6 +2,7 @@
 .squares-wrapper {
     display: flex;
     justify-content: center;
+    background-color: seashell;
 }
 
 .squares-wrapper > .squares {
